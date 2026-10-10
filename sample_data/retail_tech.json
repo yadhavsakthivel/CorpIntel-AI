@@ -1,0 +1,334 @@
+{
+  "id": "retail_tech",
+  "name": "Retail Intelligence & Smart Shelf Vision",
+  "company_name": "ShelfEdge AI",
+  "competitor_names": ["Trax Retail", "Standard AI"],
+  "industry": "Retail Automation & Computer Vision",
+  "raw_sources_text": "Trax Retail announced the expansion of its Autonomous Shelf Monitoring platform with major European supermarket chains, emphasizing real-time planogram compliance and out-of-stock alerts. Standard AI recently pivoted away from pure frictionless grab-and-go convenience checkout towards overhead vision analytics for inventory management named Vision OS, citing high capex installation barriers for full checkout retrofits. Meanwhile, ShelfEdge AI is piloting low-power edge neural compute units directly on shelf rails, reducing cloud bandwidth bills by 85% and achieving sub-2-second out-of-stock detection, though customer case studies remain limited compared to Trax's Tier-1 enterprise footprint.",
+  "sources": [
+    {
+      "id": "SRC-01",
+      "url": "https://www.retaildive.com/news/trax-retail-smart-shelf-compliance-expansion-2025/710294/",
+      "title": "Trax Retail Expands Global Shelf Monitoring Footprint with Tier-1 Grocers",
+      "snippet": "Trax announced new enterprise contracts spanning 2,400 grocery locations, deploying IoT rail cameras and crowd-sourced image verification to enforce CPG trade agreements and 98.4% planogram compliance.",
+      "publication_date": "2025-11-14",
+      "domain": "retaildive.com",
+      "verified": true
+    },
+    {
+      "id": "SRC-02",
+      "url": "https://techcrunch.com/2025/08/19/standard-ai-pivots-to-vision-os-retail-inventory/",
+      "title": "Standard AI Realigns Around Vision OS for Inventory Tracking Amid Autonomous Checkout Slowdown",
+      "snippet": "Standard AI has shifted primary commercial focus to Vision OS, offering ceiling-mounted computer vision specifically for stock loss and inventory depletion, lowering retrofitting friction after high grocery retrofit costs dampened frictionless store deployments.",
+      "publication_date": "2025-08-19",
+      "domain": "techcrunch.com",
+      "verified": true
+    },
+    {
+      "id": "SRC-03",
+      "url": "https://venturebeat.com/ai/shelfedge-ai-unveils-on-rail-neural-edge-monitoring/",
+      "title": "ShelfEdge AI Unveils On-Rail Neuromorphic Sensors for Instant Grocery Shelf Audit",
+      "snippet": "ShelfEdge AI claims 85% reduction in cloud uplink data transmission by running lightweight quantized YOLO models directly on $45 shelf-lip edge micro-nodes with 3-year battery life.",
+      "publication_date": "2026-01-22",
+      "domain": "venturebeat.com",
+      "verified": true
+    }
+  ],
+  "research_data": {
+    "summary": "Factual corporate developments indicate a critical technology transition in physical retail intelligence. Industry incumbents Trax and Standard AI are grappling with camera installation capex and cloud compute overhead, opening a window for low-power edge-first architectures pioneered by ShelfEdge AI.",
+    "findings": [
+      {
+        "company": "Trax Retail",
+        "title": "Tier-1 Grocery Multi-Year Expansion & CPG Monetization",
+        "key_development": "Scaling camera-based planogram compliance across 2,400 European and North American grocery stores, leveraging proprietary trade-promotion verification dashboards for CPG brand billing.",
+        "evidence_snippets": [
+          "Deploying IoT rail cameras and crowd-sourced image verification to enforce CPG trade agreements and 98.4% planogram compliance.",
+          "Enterprise contracts spanning 2,400 grocery locations announced in late 2025."
+        ],
+        "source_ref": "SRC-01",
+        "missing_information": [
+          "Actual per-store deployment and hardware maintenance costs",
+          "Churn rate among mid-market regional grocers"
+        ]
+      },
+      {
+        "company": "Standard AI",
+        "title": "Pivot to Vision OS and Ceiling-Sensor Inventory Tracking",
+        "key_development": "Repositioned from full cashierless checkout stores to an analytics-first software product (Vision OS), targeting stock depletion and loss prevention.",
+        "evidence_snippets": [
+          "Shifted primary commercial focus to Vision OS, offering ceiling-mounted computer vision specifically for stock loss and inventory depletion.",
+          "High grocery retrofit costs dampened frictionless store deployments."
+        ],
+        "source_ref": "SRC-02",
+        "missing_information": [
+          "Gross margin profitability of the new Vision OS standalone SKU",
+          "Customer retention metrics following the business model shift"
+        ]
+      },
+      {
+        "company": "ShelfEdge AI",
+        "title": "Edge-Native Vision Rails with Sub-2-Second Out-of-Stock Latency",
+        "key_development": "Introduced battery-powered edge inference rails capable of localized model execution without constant video streaming, drastically cutting retailer cloud egress expenses.",
+        "evidence_snippets": [
+          "Claims 85% reduction in cloud uplink data transmission by running lightweight quantized YOLO models directly on $45 shelf-lip edge micro-nodes with 3-year battery life."
+        ],
+        "source_ref": "SRC-03",
+        "missing_information": [
+          "Long-term battery degradation under harsh frozen/refrigerated aisle conditions",
+          "Scale deployment validation beyond pilot stages"
+        ]
+      }
+    ],
+    "data_gaps": [
+      "Exact hardware warranty replacement terms across all three competitors",
+      "Retailer SLA penalties for false-positive restocking alerts"
+    ],
+    "sources_processed": [
+      {
+        "id": "SRC-01",
+        "url": "https://www.retaildive.com/news/trax-retail-smart-shelf-compliance-expansion-2025/710294/",
+        "title": "Trax Retail Expands Global Shelf Monitoring Footprint with Tier-1 Grocers",
+        "snippet": "Trax announced new enterprise contracts spanning 2,400 grocery locations, deploying IoT rail cameras and crowd-sourced image verification to enforce CPG trade agreements and 98.4% planogram compliance.",
+        "publication_date": "2025-11-14",
+        "domain": "retaildive.com",
+        "verified": true
+      },
+      {
+        "id": "SRC-02",
+        "url": "https://techcrunch.com/2025/08/19/standard-ai-pivots-to-vision-os-retail-inventory/",
+        "title": "Standard AI Realigns Around Vision OS for Inventory Tracking Amid Autonomous Checkout Slowdown",
+        "snippet": "Standard AI has shifted primary commercial focus to Vision OS, offering ceiling-mounted computer vision specifically for stock loss and inventory depletion, lowering retrofitting friction after high grocery retrofit costs dampened frictionless store deployments.",
+        "publication_date": "2025-08-19",
+        "domain": "techcrunch.com",
+        "verified": true
+      },
+      {
+        "id": "SRC-03",
+        "url": "https://venturebeat.com/ai/shelfedge-ai-unveils-on-rail-neural-edge-monitoring/",
+        "title": "ShelfEdge AI Unveils On-Rail Neuromorphic Sensors for Instant Grocery Shelf Audit",
+        "snippet": "ShelfEdge AI claims 85% reduction in cloud uplink data transmission by running lightweight quantized YOLO models directly on $45 shelf-lip edge micro-nodes with 3-year battery life.",
+        "publication_date": "2026-01-22",
+        "domain": "venturebeat.com",
+        "verified": true
+      }
+    ]
+  },
+  "market_data": {
+    "market_summary": "The physical retail intelligence market is shifting from high-capex ceiling sensor retrofits towards low-capex shelf-edge sensor nodes. Grocers operate on tight 1-3% net margins and refuse to absorb million-dollar retrofit bills per supermarket. Bandwidth costs and real-time restocking latency are now primary RFP selection criteria.",
+    "macro_trends": [
+      "Grocers demanding rapid ROI under 9 months due to compressed supermarket margins.",
+      "Shift from centralized cloud video processing to local on-device neural edge inferencing.",
+      "CPG brands co-funding shelf sensor deployments in exchange for real-time compliance telemetries."
+    ],
+    "signals": [
+      {
+        "type": "opportunity",
+        "title": "Uncontested Mid-Market Grocer Edge Hardware Gap",
+        "description": "While Trax focuses exclusively on massive Tier-1 multinational grocers, regional chains (50-250 stores) are priced out of high-cost camera arrays and seek turnkey low-capex plug-and-play shelf hardware.",
+        "evidence_type": "verified_evidence",
+        "impact_level": "high",
+        "time_horizon": "short_term"
+      },
+      {
+        "type": "threat",
+        "title": "Incumbent Ecosystem Lock-in & Enterprise Sales Moats",
+        "description": "Trax possesses deep 10-year relationships with Unilever, P&G, and Nestle, allowing them to bundle software with global manufacturer trade spend dollars.",
+        "evidence_type": "verified_evidence",
+        "impact_level": "critical",
+        "time_horizon": "immediate"
+      },
+      {
+        "type": "trend",
+        "title": "Death of Multi-Million Dollar Ceiling Sensor Retrofits",
+        "description": "Standard AI's strategic pivot proves that full store ceiling camera grids face unsustainable deployment and electrical overhaul expenses in legacy supermarket layouts.",
+        "evidence_type": "verified_evidence",
+        "impact_level": "high",
+        "time_horizon": "short_term"
+      },
+      {
+        "type": "market_signal",
+        "title": "Projected CPG Co-op Sponsorship Demand",
+        "description": "Industry analysts estimate 40% of retail shelf monitoring hardware will be subsidized by CPG supplier budgets by 2027.",
+        "evidence_type": "market_assumption",
+        "impact_level": "medium",
+        "time_horizon": "medium_term"
+      }
+    ],
+    "assumptions_vs_evidence": [
+      {
+        "category": "Deployment Unit Economics",
+        "verified_evidence": "Standard AI abandoned full cashierless ceiling grids due to heavy installation capex barriers.",
+        "forward_looking_hypothesis": "On-shelf edge rails will completely eliminate the need for overhead store cameras within 36 months."
+      },
+      {
+        "category": "Cloud Egress Costs",
+        "verified_evidence": "ShelfEdge AI demonstrated 85% bandwidth reduction in localized edge-model benchmarks.",
+        "forward_looking_hypothesis": "Retailers will mandate zero-cloud raw video transmission policies for customer privacy compliance."
+      }
+    ]
+  },
+  "competitor_data": {
+    "company_name": "ShelfEdge AI",
+    "comp1_name": "Trax Retail",
+    "comp2_name": "Standard AI",
+    "products_services": {
+      "ShelfEdge AI": "On-rail neuromorphic edge sensor strips with battery life and local YOLO vision compute; cloud intelligence portal.",
+      "Trax Retail": "Trax Signal, IoT shelf cameras, crowd-sourced shopper audit app, CPG trade compliance analytics suite.",
+      "Standard AI": "Vision OS overhead camera software, automated replenishment tracking, stockout alert engine."
+    },
+    "market_positioning": {
+      "ShelfEdge AI": "Cost-disruptive, ultra-low bandwidth edge computing delivering sub-minute restocking triggers for agile grocers.",
+      "Trax Retail": "The undisputed enterprise standard for global CPG brands and multi-national supermarket conglomerates.",
+      "Standard AI": "Pioneering AI vision innovator bringing Silicon Valley deep learning to legacy grocery ceiling infrastructures."
+    },
+    "pricing_strategy": {
+      "ShelfEdge AI": "Hardware: $45/shelf node + $12/aisle/month SaaS subscription (disclosed in VentureBeat launch).",
+      "Trax Retail": "Custom Enterprise Contracts (Undisclosed / Estimated $40k-$90k/store/year based on CPG volume tiering).",
+      "Standard AI": "Unknown / Not Disclosed in Sources (Custom quote per ceiling camera footprint)."
+    },
+    "strengths": {
+      "ShelfEdge AI": [
+        "85% lower cloud egress and bandwidth expenses",
+        "Instant peel-and-stick installation without store rewiring",
+        "Sub-2-second local edge stockout inference"
+      ],
+      "Trax Retail": [
+        "Unrivaled enterprise credibility and Tier-1 grocer footprint",
+        "Established CPG co-marketing monetization channels",
+        "Extensive image training library built over 12+ years"
+      ],
+      "Standard AI": [
+        "Strong VC backing and high brand visibility",
+        "Wide overhead field-of-view without aisle occlusions",
+        "Proprietary shopper behavioral tracking algorithms"
+      ]
+    },
+    "weaknesses": {
+      "ShelfEdge AI": [
+        "Early stage with limited long-term enterprise case studies",
+        "Vulnerability to battery degradation in freezer aisles",
+        "Smaller sales pipeline and enterprise support team"
+      ],
+      "Trax Retail": [
+        "Heavy hardware capex and complex store installations",
+        "High recurring cloud compute costs passed to customers",
+        "Slower product innovation cycle due to legacy architecture"
+      ],
+      "Standard AI": [
+        "Reputational hangover from abandonment of cashierless checkout vision",
+        "Ceiling camera blind spots created by high supermarket signage",
+        "Unclear standalone unit economics for Vision OS"
+      ]
+    },
+    "metrics": [
+      {
+        "metric_name": "Deployment Speed (Installation Ease)",
+        "company_score": 92,
+        "comp1_score": 45,
+        "comp2_score": 38,
+        "metric_explanation": "ShelfEdge peel-and-stick rail sensors install in under 4 hours per store, vs multi-week ceiling cable drops for Trax and Standard AI."
+      },
+      {
+        "metric_name": "Cloud Bandwidth Cost Efficiency",
+        "company_score": 95,
+        "comp1_score": 40,
+        "comp2_score": 42,
+        "metric_explanation": "ShelfEdge processes images on-chip at the edge; competitors continuously upload video frames to centralized cloud servers."
+      },
+      {
+        "metric_name": "Tier-1 Enterprise Market Penetration",
+        "company_score": 35,
+        "comp1_score": 96,
+        "comp2_score": 68,
+        "metric_explanation": "Trax commands 2,400+ live supermarket contracts; ShelfEdge AI is currently expanding initial pilot accounts."
+      },
+      {
+        "metric_name": "Detection Latency (Restock Alert Time)",
+        "company_score": 94,
+        "comp1_score": 60,
+        "comp2_score": 72,
+        "metric_explanation": "Local edge inference delivers stockout detection in under 2 seconds, compared to 15-45 minute batched cloud audits from Trax."
+      },
+      {
+        "metric_name": "CPG Monetization Ecosystem",
+        "company_score": 30,
+        "comp1_score": 95,
+        "comp2_score": 52,
+        "metric_explanation": "Trax has direct billing arrangements with Unilever and P&G; ShelfEdge AI has not yet commercialized brand advertising verification."
+      }
+    ],
+    "unknown_factors": [
+      "Exact pricing discount schedules negotiated by Trax for multi-thousand store rollouts",
+      "Actual failure rates of Standard AI ceiling cameras in dusty warehouse distribution centers",
+      "ShelfEdge AI hardware manufacturing gross margin under 100k unit contract scale"
+    ]
+  },
+  "strategy_data": {
+    "executive_summary": "ShelfEdge AI possesses a generational hardware and architecture advantage over Trax and Standard AI: by processing computer vision directly on edge rails, it removes the crippling cloud bandwidth and installation capex costs that stalled competitor adoption. However, Trax's enterprise CPG relationships create a formidable sales barrier. ShelfEdge AI should pursue an asymmetric 'Trojan Horse' strategy targeting regional grocers (50-300 stores) with zero-upfront hardware leasing, while building a unified CPG compliance data portal to counter Trax's monetization model.",
+    "recommendations": [
+      {
+        "id": "REC-01",
+        "title": "Launch 'Zero-Capex' Hardware-as-a-Service Subscription for Regional Grocers",
+        "priority": "urgent",
+        "strategic_pillar": "Go-To-Market",
+        "target_competitor": "Trax Retail",
+        "rationale": "Trax requires high upfront hardware expenditure and lengthy installation contracts that price out regional supermarket chains. Standard AI is struggling with hardware unit economics. Offering $0 down with a $19/aisle/month subscription enables immediate store signups with instant operating-expense approval.",
+        "supporting_evidence": [
+          "Supermarket margins hover at 1-3%, creating extreme resistance to upfront capital expenditures.",
+          "ShelfEdge sensors cost only $45 to produce, making hardware amortization sustainable within 5 months of SaaS fees.",
+          "Trax's 2,400 deployments are heavily concentrated in Tier-1 giants, leaving regional chains underserved."
+        ],
+        "expected_benefit": "Accelerate customer acquisition 3.5x, capturing 150+ regional retail locations within 6 months while building a defensible recurring revenue base.",
+        "potential_risks": [
+          "Working capital strain from financing upfront sensor manufacturing before monthly cash flows mature.",
+          "Hardware write-offs if early regional grocers terminate month-to-month contracts."
+        ],
+        "confidence_score": 0.94,
+        "execution_horizon": "0-30 Days"
+      },
+      {
+        "id": "REC-02",
+        "title": "Engineer Cold-Chain Sensor Enclosure to Capture High-Margin Freezer Aisles",
+        "priority": "high",
+        "strategic_pillar": "Product Differentiation",
+        "target_competitor": "Standard AI",
+        "rationale": "Overhead ceiling cameras (Standard AI) suffer severe condensation lens-fogging and reflection issues when viewing glass-door freezer cases. On-rail edge sensors positioned inside or on shelves can monitor high-value ice cream and frozen meal stockouts directly.",
+        "supporting_evidence": [
+          "Frozen food carries 38% higher retailer margins and experiences 18% higher stockout frequency during peak hours.",
+          "Standard AI's ceiling cameras cannot reliably pierce anti-glare double-paned refrigerated door glass."
+        ],
+        "expected_benefit": "Establish an unassailable functional monopoly in supermarket cold-chain aisles where overhead competitors fail.",
+        "potential_risks": [
+          "Sub-zero battery life degradation requiring specialized lithium iron phosphate chemistry.",
+          "Potential humidity sealing manufacturing defects."
+        ],
+        "confidence_score": 0.88,
+        "execution_horizon": "Q1-Q2"
+      },
+      {
+        "id": "REC-03",
+        "title": "Build 'OpenCompliance' API Portal to Attract Major CPG Brand Co-Funding",
+        "priority": "medium",
+        "strategic_pillar": "Defensive Moat",
+        "target_competitor": "Trax Retail",
+        "rationale": "Trax's true defensive moat is that CPG brands pay for their data. ShelfEdge AI must deliver an open programmatic API that streams out-of-stock and promo compliance analytics straight into brands' SAP and Snowflake data warehouses.",
+        "supporting_evidence": [
+          "Trax generates over 45% of gross platform value from brand-side compliance verification.",
+          "Brands currently complain about Trax's proprietary closed data silos."
+        ],
+        "expected_benefit": "Enable retailers to have 50% of their ShelfEdge deployment subsidized directly by packaged goods brands.",
+        "potential_risks": [
+          "Requires strict multi-tenant data governance to prevent rival brands from viewing competitive shelf shares.",
+          "Long sales cycles when interfacing with Fortune 100 enterprise IT security."
+        ],
+        "confidence_score": 0.82,
+        "execution_horizon": "3-6 Months"
+      }
+    ],
+    "critical_risks_to_monitor": [
+      "Hardware supply chain lead-times on low-power neural edge microcontrollers.",
+      "Trax slashing pricing on legacy cameras or acquiring an edge-sensor startup to close the technological gap.",
+      "Retailer union resistance to shelf-edge monitoring and automated employee restocking timers."
+    ]
+  }
+}
